@@ -1,0 +1,9 @@
+.container-card {
+    border: 1px solid #343434;
+    background-color: #e7e7e7;
+    
+}
+.container-card .card-list{
+    border: 1px dashed black;
+    text-align:left;
+}
