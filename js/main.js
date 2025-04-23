@@ -17,4 +17,21 @@ axios.get(emailUrl)
 
 
 
+const containerCard = document.querySelector(".container-card");
+let cardHTML = ``;
+    
+for (let i = 0; i < 10; i++){
+        cardHTML +=`
+                <div class="card-list">
+                    <ul class="list">
+                        <div class="li">${emailArray.emailRandom}</div>
+                    </ul>
+                </div>
+        `
+}
+containerCard.innerHTML = cardHTML;
+
+
+
+
    
